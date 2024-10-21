@@ -5,10 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import "../styles/NavBar.css";
-import { FaDribbble } from "react-icons/fa";
 import { Email, NAME } from "./../constant";
-import { BsGlobeAmericas } from "react-icons/bs";
 
 function NavBar() {
   const socials = [
@@ -25,14 +24,11 @@ function NavBar() {
       icon: <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>,
     },
     {
-      link: "https://beacons.ai/malikbilalahmed",
-      icon: <BsGlobeAmericas style={{ fontSize: 20 }}></BsGlobeAmericas>,
-    },
-    {
-      link: "#",
-      icon: <FaDribbble style={{ fontSize: 20 }} />,
+      link: "https://wa.me/+923035986315", // WhatsApp direct link
+      icon: <WhatsAppIcon style={{ fontSize: 20 }}></WhatsAppIcon>,
     },
   ];
+  
   return (
     <Navbar fixed="top" className="bg-body-tertiary">
       <Container>
