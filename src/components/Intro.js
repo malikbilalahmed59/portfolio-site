@@ -33,13 +33,14 @@ function Intro() {
         </span>
       </Typist>
       <FadeInSection>
-        <div className="intro-subtitle">I create stuff sometimes.</div>
+      <div className="intro-subtitle">I deliver impactful digital solutions.</div>
         <div className="intro-desc">
-          I'm a software engineer from Islamabad, Pakistan, excelling in diverse
-          freelance projects. Globally, I deliver impactful digital solutions,
-          spanning intricate internal systems to public-facing websites across
-          various industries..
-        </div>
+    You’ve built a business that delivers excellence, but is your website telling the same story? 
+    I’m a software engineer from Islamabad, specializing in giving businesses like yours the 
+    digital makeover they deserve. From outdated designs to poor SEO, I help transform your online 
+    presence into a powerful tool that attracts customers and showcases the quality of your services. 
+    Let’s turn your website into a growth engine that reflects the true potential of your business.
+  </div>
         <a href={`mailto:${Email}`} className="intro-contact">
           <EmailRoundedIcon></EmailRoundedIcon>
           {" Say hi!"}

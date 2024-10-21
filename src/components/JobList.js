@@ -82,63 +82,53 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Freelance: {
-      jobTitle: "",
-      duration: "AUGUST 2022 - PRESENT",
+    "(Freelancer) Upwork": {
+      jobTitle: "Full-stack Developer @",
+      duration: "February 2024 — Present",
       desc: [
-        "Troubleshoot, debug, and upgrade existing software.",
-        "Managed multiple projects simultaneously, ensuring timely delivery and quality standards.",
-        "Designing and implementing databases for web applications.",
-        "Problem Solving: Regularly tackled complex challenges, finding innovative solutions.",
-        "Maintained clear, effective communication with clients to understand their needs and provide updates",
-        "Continuously upgraded skills to stay relevant in the ever-evolving freelance market.",
+        "Freelancing on Upwork as a Web Developer specializing in Python, Django, React, and TypeScript.",
+        "Delivered backend solutions with Python and Django.",
+        "Developed dynamic front-end applications using React and TypeScript.",
+        "Expanded expertise to LLMs and LangChain for intelligent applications.",
+        "Provided high-quality, scalable solutions to clients across various industries.",
       ],
     },
-    "xEarn Dao LLC, US (Remote)": {
-      jobTitle: "Front-End Developer @",
-      duration: "APRIL 2023 - NOVEMBER 2023",
+    "Codistan Ventures , Islamabad": {
+      jobTitle: "Back End Developer @",
+      duration: "December 2022 — September 2023",
       desc: [
-        "Collaborate closely with a team of Full-stack engineers, with a primary focus on front-end development while also contributing to back-end tasks.",
-        "Translating Figma designs into fully functional React applications.",
-        "Employing Material UI and style components to create an aesthetically pleasing user interface.",
+        "Gained expertise in Django and Django Rest Framework for backend development.",
+        "Developed and maintained robust APIs and managed databases.",
+        "Optimized server-side performance for scalability and efficiency.",
+        "Hands-on experience with Docker and AWS for cloud deployment.",
+        "Contributed to containerized, scalable backend solutions.",
       ],
     },
-    "BPO Flexible, Sri Lanka (Remote)": {
-      jobTitle: "Full Stack Web Developer @",
-      duration: "April 2023 – June 2023",
+    "Code Hub Systems , Islamabad": {
+      jobTitle: "Junior Web Developer @",
+      duration: "March 2022 — November 2022",
       desc: [
-        "Designing and implementing databases for web applications.",
-        "Refactoring component logic to improve code reusability.",
-        "Actively participating in developer meetings to contribute to project updates.",
-        "Translating Figma designs into fully functional React applications.",
-        "Utilizing Bootstrap 5 to create an appealing and user-friendly UI.",
-        "Demonstrating proficiency in technologies to successfully achieve project objectives.",
+        "Gained expertise in React and TypeScript for scalable web applications.",
+        "Developed and maintained user-friendly front-end features.",
+        "Enhanced proficiency in responsive design and UI/UX optimization.",
+        "Delivered high-quality, performance-driven projects on time.",
+        "Collaborated with cross-functional teams to ensure project success.",
       ],
     },
-    "Code Hub Systems, Islamabad": {
-      jobTitle: "Software Engineer @",
-      duration: "Feb 2023 – August 2023",
+    "Intern, Absoluit · Part-time, Islamabad": {
+      jobTitle: "Intern @",
+      duration: "April 2021 — October 2021",
       desc: [
-        "Troubleshoot, debug, and upgrade existing software.",
-        "Actively involved in multiple projects and play a crucial role in developing new features and ensuring bug-free applications.",
-        "Peer’s code review and drop comments against the code.",
-        "Responsible for UI leveraging React and for styling using Material Design.",
-        "Actively involved in frontend and backend development of Software applications.",
-        "Attend daily standup to share progress and discuss any blockers.",
-        "Sprint planning with the development and product team.",
-      ],
-    },
-    "National Highways & Motoway Police, G-11/1 Islamabad": {
-      jobTitle: "Software Developer Intern @",
-      duration: "JUNE 2022 - AUGUST 2022",
-      desc: [
-        "Troubleshoot, debug, and upgrade existing software.",
-        "Actively involved in multiple projects and play a crucial role in developing new features and ensuring bug-free applications.",
-        "Actively involved in frontend and backend development of Software applications.",
+        "Mastered Python fundamentals for web development.",
+        "Gained hands-on experience with Django for dynamic web applications.",
+        "Worked on full-stack projects involving front-end and back-end development.",
+        "Developed expertise in RESTful APIs and database integration.",
+        "Collaborated with cross-functional teams to optimize and enhance applications.",
+        "Strengthened understanding of software development best practices for scalability.",
       ],
     },
   };
-
+  
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
